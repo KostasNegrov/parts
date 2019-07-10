@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charsst="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="libs/swiper/css/swiper.min.css">  <!--Должен быть впереди-->
+	<link rel="stylesheet" href="css.css">
+	
+</head>
+<body>
+
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/1.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/2.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/3.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/4.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/5.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/6.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/7.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
+				<div class="img-box">
+					<img src="img/8.jpg" alt="">
+				</div>
+				<div class="detalis">
+					<h3>Киану Ривз<br><span>Актер,сценарист</span></h3>
+				</div>
+			</div>
+			
+
+
+
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+
+	
+	
+	<script src="libs/swiper/js/swiper.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 500,
+				modifier: 1,
+				slideShadows : true,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+			},
+		});
+	</script>
+	
+</body>
+</html>
