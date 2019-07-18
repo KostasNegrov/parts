@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charsst="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Ink</h1>
+		</header>
+		<nav>
+			<ul class="site-nav">
+				<li><a href="/">Home</a></li>
+				<li><a href="/features">Features</a></li>
+				<li><a href="/pricing">Pricing</a></li>
+				<li><a href="/support">Support</a></li>
+				<li class="nav-right">
+					<a href="/about">About</a>
+				</li>
+			</ul>
+		</nav>
+		
+		Эдементы увеличиваются до естественной ширины.
+			Они не обязательно заполняют ширину контейнера	
+		<div class="flex">
+			<!-- flex-none -->
+			<div class="flex-item-1">
+				flex:none
+			</div>
+			<div class="flex-item-2">
+				flex:none
+			</div>
+			<div class="flex-item-3">
+				flex:none
+			</div>
+		</div>
+
+		<!-- flex: 0 0 300px -->
+		Первый элемент имеет фиксированную ширину 300 пикселов.Дополнительно можно 
+		поставить max-width,чтобы предотвратить расширение элемента из-за ширины контейнера
+		<div class="flex">	
+				
+			<div class="flex-item-4">
+				flex: 0 0 300px
+			</div>
+			<div class="flex-item-5">
+				flex:1
+			</div>		
+		</div>
+
+		<!-- flex: 0 0 200px -->
+		Первый и третий имеют фиксированную ширину.Центральный расширяется 
+		для заполнения всего оставшегося пространства.
+		<div class="flex">	
+				
+			<div class="flex-item-6">
+				flex: 0 0 200px
+			</div>
+			<div class="flex-item-7">
+				flex:1
+			</div>		
+			<div class="flex-item-8">
+				flex: 0 0 200px
+			</div>		
+		</div>
+		<!-- % -->
+		Элементы увеличиваются до указанной ширины в процентах
+		<div class="flex">	
+				
+			<div class="flex-item-9">
+				flex: 50%
+			</div>
+			<div class="flex-item-10">
+				flex: 25%
+			</div>		
+			<div class="flex-item-11">
+				flex: 25%
+			</div>		
+		</div>
+
+
+
+	</div>
+
+
+
+
+</body>
+
+</html>
